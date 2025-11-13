@@ -1,10 +1,29 @@
-.App {
+.board {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+}
+.delBtn {
+  color: palevioletred;
+  background-color: pink;
+  border: 1px solid plum;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
